@@ -16,18 +16,26 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:layout_weight="2">
 
-            <Button
-                android:id="@+id/logowali"
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/logo"
-                android:textColor="#fff"
-                android:paddingTop="8dp"
-                android:paddingBottom="8dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
                 android:paddingLeft="16dp"
-                android:paddingRight="16dp" />
+                android:paddingRight="16dp"
+                android:src="@drawable/logo"/>
+            <!--<Button-->
+                <!--android:id="@+id/logowali"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/logo"-->
+                <!--android:textColor="#fff"-->
+                <!--android:paddingTop="8dp"-->
+                <!--android:paddingBottom="8dp"-->
+                <!--android:paddingLeft="16dp"-->
+                <!--android:paddingRight="16dp" />-->
 
         </LinearLayout>
 
